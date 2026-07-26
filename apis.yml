@@ -1,19 +1,49 @@
 aid: drahim-holdings
 name: Drahim Holdings
-description: Drahim Holdings is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Drahim (دراهم) is a Saudi personal-finance and automated-investment fintech, founded in Riyadh in
+  2021 by Sultan Alkhayal and Yasser Alshurihi. Its mobile app uses open banking to aggregate a user's
+  bank accounts into one view, enriches and auto-categorizes transactions (2.5B+ processed), and offers
+  auto-savings, Zakat calculation, and Sharia-compliant robo-advisory portfolios spanning 40+ funds
+  across Saudi and global equities, real estate, and commodities. Drahim is licensed by the Saudi Central
+  Bank (SAMA) for open-banking/payment services and by the Capital Market Authority (CMA) for investment
+  management; it was backed by Y Combinator and 500 Global, and Al Rajhi Bank acquired a 65% majority
+  stake in 2024. Drahim is a consumer application and does not publish a public developer API, OpenAPI
+  specification, or developer portal; this profile captures its corporate and product identity plus
+  live domain-security posture. Consumer surfaces include the iOS and Android apps and a business platform.
 url: https://raw.githubusercontent.com/api-evangelist/drahim-holdings/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- y-combinator
+- al-rajhi-bank
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/lTlZlUtfJugO4DrxswSiyj9JA.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Open Banking
+- Investing
+- Robo-Advisory
+- Saudi Arabia
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/drahim-holdings-domain-security.yml
 - type: Website
   url: https://drahim.sa
+- type: Blog
+  url: https://blog.drahim.sa/
+- type: PrivacyPolicy
+  url: https://drahim.sa/privacy
+- type: TermsOfService
+  url: https://drahim.sa/terms
+- type: Support
+  url: https://t.me/drahimSupport
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=sa.drahim.app
+- type: AppStore
+  url: https://apps.apple.com/sa/app/drahim-manage-grow-finances/id1591612912
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
