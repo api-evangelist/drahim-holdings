@@ -2,6 +2,20 @@
   "repo": "drahim-holdings",
   "feeds": [
     {
+      "source": "https://blog.drahim.sa/rss/",
+      "feed_url": "https://blog.drahim.sa/rss/",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    },
+    {
+      "source": "https://blog.drahim.sa/",
+      "feed_url": "https://blog.drahim.sa/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://drahim.sa",
       "feed_url": "https://drahim.sa",
       "title": "",
@@ -9,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 1,
+  "fetched": "2026-10-10T13:15:00Z"
 }
